@@ -1,0 +1,21 @@
+.batman {
+  position: relative;
+  animation-name: batlogoX;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.joker {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+@keyframes batlogoX {
+  from {
+    transform: translate(0px, 0px) scale(1) rotateZ(0deg) rotateX(0deg);
+  }
+  to {
+    transform: translate(800px, 350px) scale(5) rotateZ(810deg) rotateX(720deg);
+  }
+}
